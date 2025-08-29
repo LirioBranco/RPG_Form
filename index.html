@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="formulario.css">
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+	<script> emailjs.init("bjaT6QMQigbzFIudy"); </script>
+	<script src="form.js" defer></script>
+
+</head>
+<body>
+    <h1>Crie seu personagem de RPG</h1>
+    <form id="formContato">
+		<input type="text" id="nome" name="nome" placeholder="Seu nome">
+		<input type="email" id="email" name="email" placeholder="Seu e-mail">
+	 <br>
+	<p> No ano de 536, uma escuridão e pragas terríveis tomaram conta do reino. Você foi escolhido para uma jornada mística e <br> 
+        perigosa atrás de respostas para a maldição que está assolando sua nação. Crie seu personagem e escolha sua origem.</p>
+      Nome do personagem:  <input type="text" id="nomePersonagem" name="nomePersonagem"> <br>
+	Data de nascimento: <input type="date" name="datanascimento"> <br>
+	Classe: 
+		<input type="radio" name="classe" value="c"> Clérigo
+		<input type="radio" name="classe" value="g"> Guerreiro
+		<input type="radio" name="classe" value="m"> Médico
+		<input type="radio" name="classe" value="l"> Ladino
+		<input type="radio" name="classe" value="b"> Bárbaro
+	<br>
+	<br>
+	Reino de origem: <br>
+		<select name="reino">
+			<option>Império Romano do Oriente</option>
+			<option>Reino Ostrogótico</option>
+			<option>Reino Visigótico</option>
+			<option>Eslavos</option>
+			<option>Reino Franco</option>
+			<option>Escandinavos</option>
+		</select>
+	<br>
+	<br>
+	Equipamentos iniciais (até 3 opções) <br>
+		<input type="checkbox" name="espada curta" value="sim" > Espada curta
+		<input type="checkbox" name="bíblia" value="sim" > Bíblia
+		<input type="checkbox" name="kit primeiros socorros" value="sim" > Kit primeiros socorros
+		<input type="checkbox" name="crucifixo" value="sim" > Crucifixo
+		<input type="checkbox" name="armadura leve" value="sim" > Armadura leve
+		<input type="checkbox" name="kit de ervas" value="sim" > Kit de ervas
+		<input type="checkbox" name="capa longa" value="sim" > Capa longa
+		<input type="checkbox" name="adaga" value="sim" > Adaga
+		<input type="checkbox" name="lockpick" value="sim" > Lockpick
+		<input type="checkbox" name="kit de costura" value="sim" > Kit de costura
+	<br>
+	<br>
+Comentários sobre o formulário e a ideia do RPG em si: <br>
+		<textarea name="mensagem"></textarea>
+	<br>
+	<button type="submit">Enviar</button>
+
+    </form>
+	<div id="mensagemStatus"></div>
+</body>
+</html>

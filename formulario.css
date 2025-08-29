@@ -1,0 +1,19 @@
+    h1 {color:rgb(255, 0, 0); font: size 48px;text-align: center;}
+	h1 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: firebrick;}
+	body {background-image:url(https://i.pinimg.com/736x/d9/5a/f0/d95af02efc459208a2cd365ba2714e95.jpg); background-size: cover;}
+	form {color:crimson; font-family:'Times New Roman';-webkit-text-stroke-color:black;}
+	form {-webkit-text-stroke-width: 0.3px; -webkit-text-stroke-color: firebrick;font-size: 30;text-align: center;}
+	#mensagemStatus.sucesso {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: green;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#mensagemStatus.erro {
+  background-color: rgba(255, 0, 0, 0.2);
+  color: crimson;
+  border: 2px solid crimson;
+border: 2px solid black;
+  text-align: center;
+}
