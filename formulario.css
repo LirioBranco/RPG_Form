@@ -1,10 +1,10 @@
     h1 {color:rgb(255, 0, 0); font: size 48px;text-align: center;}
 	h1 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: firebrick;}
 	body {background-image:url(https://img.freepik.com/vetores-premium/silhueta-de-cena-de-paisagem-com-cidade-medieval_1639-34721.jpg); background-size: cover;}
-	form {color:crimson; font-family:'Times New Roman';-webkit-text-stroke-color:black;}
+	form {color:black; font-family:'Times New Roman';-webkit-text-stroke-color:black;}
 	form {-webkit-text-stroke-width: 0.3px; -webkit-text-stroke-color: firebrick;font-size: 30;text-align: center;}
 	#mensagemStatus.sucesso {
-  background-color: rgba(0, 128, 0, 0.2);
+  background-color: black;
   color: green;
   border: 2px solid black;
   text-align: center;
@@ -12,10 +12,11 @@
 
 #mensagemStatus.erro {
   background-color: rgba(255, 0, 0, 0.2);
-  color: crimson;
+  color: black;
   border: 2px solid crimson;
 border: 2px solid black;
   text-align: center;
 }
+
 
 
