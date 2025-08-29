@@ -1,4 +1,4 @@
-    h1 {color:rgb(255, 0, 0); font: size 48px;text-align: center;}
+    h1 {color:black; font: size 48px;text-align: center;}
 	h1 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: firebrick;}
 	body {background-image:url(https://img.freepik.com/vetores-premium/silhueta-de-cena-de-paisagem-com-cidade-medieval_1639-34721.jpg); background-size: cover;}
 	form {color:black; font-family:'Times New Roman';-webkit-text-stroke-color:black;}
@@ -17,6 +17,7 @@
 border: 2px solid black;
   text-align: center;
 }
+
 
 
 
