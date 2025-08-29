@@ -1,6 +1,6 @@
     h1 {color:rgb(255, 0, 0); font: size 48px;text-align: center;}
 	h1 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: firebrick;}
-	body {background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ2DKbo0XjN5MP4KMjymsl4nOG82oglBkJCA&s); background-size: cover;}
+	body {background-image:url(https://img.freepik.com/vetores-premium/silhueta-de-cena-de-paisagem-com-cidade-medieval_1639-34721.jpg); background-size: cover;}
 	form {color:crimson; font-family:'Times New Roman';-webkit-text-stroke-color:black;}
 	form {-webkit-text-stroke-width: 0.3px; -webkit-text-stroke-color: firebrick;font-size: 30;text-align: center;}
 	#mensagemStatus.sucesso {
@@ -17,4 +17,5 @@
 border: 2px solid black;
   text-align: center;
 }
+
 
