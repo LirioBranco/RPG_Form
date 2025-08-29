@@ -1,19 +1,9 @@
     h1 {color:black; font: size 48px;text-align: center;}
 	h1 {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: firebrick;}
-	body {background-image:url(https://e0.pxfuel.com/wallpapers/783/257/desktop-wallpaper-medieval-castle-background-of.jpg); background-size: cover;}
+	body {background-image:url(https://i.pinimg.com/736x/61/73/bd/6173bd391f77d09b2160c0b504003ffa.jpg); background-size: cover;}
 	form {color:crimson; font-family:'Times New Roman';-webkit-text-stroke-color:black;}
 	form {-webkit-text-stroke-width: 0.3px; -webkit-text-stroke-color: firebrick;font-size: 30;text-align: center;}
-	form {display: flex; flex-direction: column;}
-	form label {margin-top: 1rem;}
-	form input, form textarea {padding: 0.5rem;margin-top: 0.5rem;}
-	form button {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    background-color:white;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
+
 	#mensagemStatus.sucesso {
   background-color: black;
   color: green;
@@ -28,6 +18,7 @@
 border: 2px solid black;
   text-align: center;
 }
+
 
 
 
